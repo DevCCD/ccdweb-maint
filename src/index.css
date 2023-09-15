@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;500&display=swap');
+
+body {
+    background: #FFD9E1;
+    font-family: 'Montserrat';
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
