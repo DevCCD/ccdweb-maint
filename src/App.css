@@ -18,6 +18,35 @@ h2, h1 {
   font-weight: 500;
 }
 
+.socials {
+  display: flex;
+  justify-content: center;
+}
+.redes-sociales {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color .5s;
+}
+
+.redes-sociales a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  color: rgb(155, 0, 0);
+  height: 40px;
+  width: 40px;
+  font-size: 24px;
+  border-radius: 50px;
+  margin: 0.3rem;
+}
+
+.redes-sociales a:hover {
+  background: rgb(155, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
 @media (min-width:1024px) {
   h2, h1 {
       font-size: 50px;
