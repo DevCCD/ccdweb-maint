@@ -6,9 +6,6 @@ function App() {
   
   return (
     <>
-    <div className='socials'>
-      <RedesSociales redes={redesSocialesData} />
-    </div>
     <div className="container">
         <div className="left">
             <h2>¡LAMENTAMOS LAS MOLESTIAS!</h2>
@@ -18,6 +15,9 @@ function App() {
         <div className="right">
             <img src="./background.png" alt="Imagen Mantenimiento CCD"/>
         </div>
+    </div>
+    <div className='socials'>
+      <RedesSociales redes={redesSocialesData} />
     </div>
     </>
   );

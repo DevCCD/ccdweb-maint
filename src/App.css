@@ -4,6 +4,13 @@
   --bg-color: #ececec;
 }
 
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
 .container {
   padding-top: 2.5rem;
   display: grid;
@@ -88,5 +95,11 @@ h2, h1 {
       display: flex;
       justify-content: center;
       align-items: center;
+  }
+}
+
+@media (max-width:1024px) {
+  #root {
+    gap: 2rem;
   }
 }
