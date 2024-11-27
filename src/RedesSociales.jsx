@@ -1,14 +1,17 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaInstagram, FaPhone, FaRegEnvelopeOpen, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaRegEnvelope, FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter, FaFacebookF, FaPhone } from "react-icons/fa6";
+import { FiLinkedin, FiFacebook } from "react-icons/fi";
+import { MdOutlinePhone } from "react-icons/md";
 
 const RedesSociales = ({ redes }) => {
     const iconos = {
-        Facebook: FaFacebook,
-        Twitter: FaTwitter,
+        Facebook: FiFacebook,
+        Twitter: FaXTwitter,
         Instagram: FaInstagram,
-        Gmail: FaRegEnvelopeOpen,
-        Phone: FaPhone,
-        LinkedIn: FaLinkedinIn
+        Gmail: FaRegEnvelope,
+        Phone: MdOutlinePhone,
+        LinkedIn: FiLinkedin
     };
 
     return (
