@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #a1011f;
+  --white: #fff;
+  --bg-color: #ececec;
+}
+
 .container {
   padding-top: 2.5rem;
   display: grid;
@@ -26,7 +32,7 @@ h2, h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color .5s;
+  gap: 1rem;
 }
 
 .redes-sociales a {
@@ -34,17 +40,18 @@ h2, h1 {
   align-items: center;
   justify-content: center;
   background: transparent;
-  color: rgb(155, 0, 0);
+  color: var(--primary-color);
   height: 40px;
   width: 40px;
+  transition: all ease-in .2s;
   font-size: 24px;
   border-radius: 50px;
   margin: 0.3rem;
 }
 
 .redes-sociales a:hover {
-  background: rgb(155, 0, 0);
-  color: rgb(255, 255, 255);
+  background: var(--primary-color);
+  color: var(--white);
 }
 
 @media (min-width:1024px) {

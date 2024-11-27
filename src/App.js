@@ -9,13 +9,13 @@ function App() {
     <div className='socials'>
       <RedesSociales redes={redesSocialesData} />
     </div>
-    <div class="container">
-        <div class="left">
+    <div className="container">
+        <div className="left">
             <h2>¡LAMENTAMOS LAS MOLESTIAS!</h2>
             <p>Este espacio se encuentra en mantenimiento.</p>
             <p>Muy pronto estará disponible.</p>
         </div>
-        <div class="right">
+        <div className="right">
             <img src="./background.png" alt="Imagen Mantenimiento CCD"/>
         </div>
     </div>
