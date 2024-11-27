@@ -1,6 +1,6 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaRegEnvelope, FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter, FaFacebookF, FaPhone } from "react-icons/fa6";
+import { FaInstagram, FaRegEnvelope, } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { FiLinkedin, FiFacebook } from "react-icons/fi";
 import { MdOutlinePhone } from "react-icons/md";
 
