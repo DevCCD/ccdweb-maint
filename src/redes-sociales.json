@@ -1,15 +1,15 @@
 [
     {
         "nombre": "Facebook",
-        "enlace": "https://www.facebook.com/profile.php?id=100063956947676"
+        "enlace": ""
     },
     {
         "nombre": "Twitter",
-        "enlace": "https://twitter.com/ccd_lima"
+        "enlace": ""
     },
     {
         "nombre": "Instagram",
-        "enlace": "https://www.instagram.com/"
+        "enlace": ""
     },
     {
         "nombre":"Gmail",
@@ -21,6 +21,6 @@
     },
     {
         "nombre":"LinkedIn",
-        "enlace": "https://www.linkedin.com/company/ccdcompetitividad/"
+        "enlace": ""
     }
 ]

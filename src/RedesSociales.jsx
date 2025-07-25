@@ -19,7 +19,9 @@ const RedesSociales = ({ redes }) => {
         {redes.map((red, index) => {
             const Icono = iconos[red.nombre];
             return (
-                <a key={index} href={red.enlace} target="_blank" rel="noopener noreferrer">
+                <a key={index} 
+                // href={red.enlace}
+                 >
                     <Icono />
                 </a>
             );

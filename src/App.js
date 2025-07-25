@@ -6,19 +6,20 @@ function App() {
   
   return (
     <>
-    <div className="container">
+      <div className="container">
         <div className="left">
-            <h2>¡LAMENTAMOS LAS MOLESTIAS!</h2>
-            <p>Este espacio se encuentra en mantenimiento.</p>
-            <p>Muy pronto estará disponible.</p>
+          <img src="./logoccd.png" alt="Logo CCD"/>
+          <h1>Nuestra página se encuentra en mantenimiento.</h1>
+          <p>Muy pronto estará disponible.</p>
+          {/* MOVIMOS LAS REDES SOCIALES AQUÍ */}
+          <div className='socials'>
+            <RedesSociales redes={redesSocialesData} />
+          </div>
         </div>
         <div className="right">
-            <img src="./background.png" alt="Imagen Mantenimiento CCD"/>
+          <img src="./background.png" alt="Imagen Mantenimiento CCD"/>
         </div>
-    </div>
-    <div className='socials'>
-      <RedesSociales redes={redesSocialesData} />
-    </div>
+      </div>
     </>
   );
 }
